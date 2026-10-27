@@ -1,0 +1,16 @@
+file	n	expected_min_distance	what_it_tests
+01_two_points.txt	2	6.186853	minimum input, n=2 (your example's first two points)
+02_three_points.txt	3	5.000000	n=3, brute-force base case (3-4-5 triangle)
+03_duplicate_points.txt	31	0.000000	one exact duplicate point -> answer 0
+04_all_identical.txt	500	0.000000	all 500 points identical -> answer 0
+05_same_x.txt	2000	0.050478	every point has the same x (split by x is degenerate)
+06_same_xy_diff_z.txt	3202	0.400000	3000 points with same x and y, only z differs (breaks a naive slab scan); real pair elsewhere
+07_collinear_3d_line.txt	1500	0.008660	all points on one diagonal 3D line
+08_coplanar_z0.txt	3000	0.011180	all points on the plane z=0 (2D case)
+09_lattice_many_ties.txt	1728	1.000000	12x12x12 integer lattice, thousands of pairs tied at distance 1
+10_large_magnitude.txt	5000	3564.555345	coordinates up to +-1,000,000 (overflow/precision check)
+11_two_far_clusters.txt	800	0.019313	two clusters 2000 apart, answer is inside a cluster
+12_pair_crosses_middle.txt	1002	0.101980	closest pair straddles x=0, the middle of the split
+13_tiny_gap_precision.txt	302	0.001000	smallest possible gap at 3 decimals (0.001)
+14_random_medium.txt	1000	0.115957	random uniform, n=1000
+15_random_large.txt	100000	0.493974	random uniform, n=100000 (performance)
