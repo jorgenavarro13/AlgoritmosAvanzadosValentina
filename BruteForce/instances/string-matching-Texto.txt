@@ -1,0 +1,12 @@
+Utilizando la técnica de programacion de fuerza bruta, crea los programas para los siguientes algoritmos. 
+En C/C++: 
+Closest-pair (instancias de prueba y generador disponibles en Google Drive, clase 02)
+String-matching
+En C/C++ / Python, si lo prefieres:
+Algoritmo de generacion de permutaciones en orden lexicografico.
+Algoritmo de generación de subsets.
+Individualmente, investiga e implementa un algoritmo de fuerza bruta por persona del equipo.  ¡Hay muchas opciones! Explica en el codigo que hace. 
+Este punto se califica individualemente, todo el equipo debe tener problemas diferentes. No te afecta si tu compañero no lo hace. 
+Por cada algoritmo no olvides indicar en comentarios del codigo: 
+¿Cual es la complejidad del peor caso, en notación O-grande de cada algoritmo? 
+Comenta tu codigo adecuadamente: que hace, que recibe como entrada y que devuelve como salida.
